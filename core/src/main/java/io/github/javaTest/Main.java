@@ -180,7 +180,7 @@ public class Main extends ApplicationAdapter {
                 dropSound.play(); // Play the sound
             }
         }
-        
+
         dropTimer += delta; //Adds current delta to the timer
         if (dropTimer > 1f) {
             dropTimer = 0;
